@@ -6,7 +6,7 @@ library('cem')
 # your data should contain you dep and indep vars, control vars, data type as factors for fixed effects 
 load(file = '/data/home/bsw639/Expertise/R notebooks/paper0127.Rdata')
 
-
+# add one comment
 
 cal_delta <- function(treatment = NULL, data = NULL,vars = NULL,cutpoints = NULL,Y = 'mesh_inno'){
 # you don't have to change this function;
