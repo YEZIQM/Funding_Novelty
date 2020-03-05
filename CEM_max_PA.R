@@ -8,6 +8,7 @@ load(file = '/data/home/bsw639/Expertise/R notebooks/paper0127.Rdata')
 
 # add one comment
 
+# add another comment
 cal_delta <- function(treatment = NULL, data = NULL,vars = NULL,cutpoints = NULL,Y = 'mesh_inno'){
 # you don't have to change this function;
 # treatment: treatment, your main indep var;
